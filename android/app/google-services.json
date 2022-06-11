@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "666808230834",
+    "project_id": "codegirls-firebase",
+    "storage_bucket": "codegirls-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666808230834:android:7a24e141e9bb2a4ad23aab",
+        "android_client_info": {
+          "package_name": "com.example.chat_codegirls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666808230834-53eqrae9bnlv0i5i90o0dvbmb5mngqeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPf_BLVsA_sJaGUFmZbfbNGBM--HsWxJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666808230834-53eqrae9bnlv0i5i90o0dvbmb5mngqeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666808230834:android:d60592e06e84184fd23aab",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666808230834-53eqrae9bnlv0i5i90o0dvbmb5mngqeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPf_BLVsA_sJaGUFmZbfbNGBM--HsWxJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666808230834-53eqrae9bnlv0i5i90o0dvbmb5mngqeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
