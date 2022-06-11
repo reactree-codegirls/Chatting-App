@@ -1,3 +1,4 @@
+import 'package:chat_codegirls/messageContainer.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -49,10 +50,16 @@ class _HomeScreenState extends State<HomeScreen> {
                     );
 
                   return ListView.separated(
+                      reverse: true,
                       itemBuilder: (ctx, i) {
                         final message =
                             MessageModel.fromDocument(snapshot.data!.docs[i]);
-                        return Text(message.message);
+                        return Row(
+                          mainAxisAlignment: message.uid == "maaz"
+                              ? MainAxisAlignment.end
+                              : MainAxisAlignment.start,
+                          children: [MessageContainer(message: message)],
+                        );
                       },
                       separatorBuilder: (ctx, i) => SizedBox(
                             height: 10,
@@ -60,6 +67,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       itemCount: snapshot.data!.docs.length);
                 },
               ),
+            ),
+            SizedBox(
+              height: 10,
             ),
             Row(
               children: [
